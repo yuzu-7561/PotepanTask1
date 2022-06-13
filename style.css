@@ -89,7 +89,7 @@ Header {
   transition: 0.3s;
 }
 
-.HeaderNavItemLinkButton:hover {
+.HeaderNavItemLinkButton:hover, .TopPageContentsButton:hover {
   opacity: 0.5;
 }
 
@@ -112,10 +112,11 @@ main {
 
 .TopPageImage {
   display: none;
+  width: 100%;
 }
 
 .TopPageContainer {
-  background-image: url(//camp.potepan.com/wp-content/themes/potepancamp/assets/styles/../images/home/first-view/top-hero.jpg);
+  background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/home/first-view/top-hero.jpg);
   background-position: center;
   background-size: cover;
   padding-top: 100px;
@@ -343,7 +344,6 @@ video {
   
   .TopPageImage {
     display: block;
-    width: 100%;
   }
   
   .TopPageContainer {
